@@ -1,7 +1,7 @@
 // Define OutOfRangeError class
 class OutOfRangeError extends Error {
   constructor(arg) {
-    super(`Expression should only consist of integers and +-/* characters and not ${arg}`);
+    super(`Expression should only consist of integers and +-/* characters and not < arg >`);
     this.name = "OutOfRangeError";
   }
 }
